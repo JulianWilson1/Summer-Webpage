@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link href="External.css" rel="stylesheet"/>
+    <link rel="" sizes="16x16">
+	<script type="text/javascript">
+		function Submit(){
+			var pswd= myForm.psw.value
+			var repeatPswd= myForm.repeat.value
+		
+
+			if (pswd == repeatPswd) {
+				var myText="Your username is " + myForm.username.value +  ". Your password is " + myForm.psw.value; + myForm.repeat.value
+			
+				window.alert(myText)
+				window.open("Login.html")
+
+
+			} else{
+				window.alert("Your passwords don't match")
+			}
+
+		}
+	</script>
+
+</head>
+<body class="index">
+	<h1 class="Heading">Login</h1>
+	<form name="myForm">
+
+		<p class="paragraph">Username:</p> 
+		<input type="text" placeholder="Enter Username" name="username"><br>
+		<p>Password:</p> 
+		<input type="password" placeholder="Enter Password" name="psw"><br>
+		<br>
+		<p>Repeat Password:</p>
+		<input type="password" placeholder="Repeat Password" name="repeat"><br>
+		<br>
+
+		<input type="button" name="btSubmit" value="Login" onClick="Submit();">
+		<button type="reset" value="Reset">Reset</button>
+	</form>
+</body>
+</html>

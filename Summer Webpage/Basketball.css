@@ -1,0 +1,60 @@
+body, html{
+			height: 100%;
+			margin: 0;
+
+			background-image: url("https://media0.giphy.com/media/3o7TKuUgfCzCSfxYZy/giphy.gif");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 100% 100%;
+
+
+
+		}
+
+		form{
+			color: white;
+
+
+		}
+		ul {
+			overflow: hidden;
+			background-color: LightGrey;
+			
+            display: block;
+    		text-align: center;
+    		padding: 15px 17px;
+    		text-decoration: none;
+    		font-size: 20px;
+    		list-style-type: none;
+		}
+		li{
+			display: inline;
+		}
+		h1{
+			color: white;
+		}
+
+		a{
+			font-size: 20px;
+			text-align: right;
+			color: white;
+		}
+		p{
+			
+			font-size: 40px;
+			
+
+		}
+		form{
+			text-align: center;
+			font-size: 25px;
+		}
+		input{
+			font-size: 15px;
+		}
+		h1{
+			text-align: center;
+		}
+		button{
+			font-size: 15px;
+		}

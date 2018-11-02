@@ -1,0 +1,39 @@
+body{
+				background-image: url("https://media3.giphy.com/media/blConiNoHWdYA/giphy.gif");
+			}
+
+
+
+			h1{
+			text-align: center;
+			font-size: 45px;
+			background-color: blue;
+			color: white;
+		}
+		ul {
+			overflow: hidden;
+			background-color: LightGrey;
+			
+            display: block;
+    		text-align: center;
+    		padding: 15px 17px;
+    		text-decoration: none;
+    		font-size: 20px;
+    		list-style-type: none;
+		}
+		li{
+			display: inline;
+		}
+
+		p{
+			font-size: 35px;
+			color: white;
+			text-shadow: 2px 2px 2px #000000;
+
+		}
+		a{
+			font-size: 20px;
+		}
+		.line{
+			margin-bottom: 5px;
+		}

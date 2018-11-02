@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculating field goal average</title>
+	<link href="Basketball.css" rel="stylesheet"/>
+    <link rel="" sizes="16x16">
+
+	<script type="text/javascript">
+		function Submit(){
+			var fieldGoalAvg = 0 ;
+			var fieldGoalsAttepmted = 0 ;
+			var fieldGoalsMade = 0 ;
+			fieldGoalsAttepmted = Number(myForm.fieldGoalsAttepmted.value);
+			fieldGoalsMade = Number(myForm.fieldGoalsMade.value);
+			fieldGoalAvg = Number(fieldGoalsMade/fieldGoalsAttepmted);
+			myForm.fieldGoalAvg.value = fieldGoalAvg.toFixed(3) *100;
+			window.alert("Your field goal average is " + myForm.fieldGoalAvg.value + "%");
+		}
+
+	</script>
+</head>
+<body>
+	<ul>
+		<li><a href="Login.html">Home</a></li>		
+  		<li><a href="Hyper2.html">Jordans</a></li>
+  		<li><a href="Hyper3.html">Nike</a></li>
+  		<li><a href="Hyper4.html">Adidas</a></li>
+  		<li><a href="Basketball.html">Shooting Average</a></li>
+  		<li><a href="https://www.goat.com/">References</a></li>	
+  	</ul>
+	
+		  
+
+	<h1>Calculate your Shooting Average.</h1>
+
+	
+	<form name="myForm">
+
+	
+		How many shots did you take?
+		<input type="number" name="fieldGoalsAttepmted"><br>
+	    <br>
+		How many shots did you make?
+		<input type="number" name="fieldGoalsMade">
+		<br>
+
+		
+		<input type="button" name="btSubmit" value="Calculate Field Goal Percentage" onClick="Submit();"><br>
+        <br>
+		Your field goal average:
+
+
+
+		<input type="number" name="fieldGoalAvg" <p>%</p>
+		<button type="reset" value="Reset">Reset</button>
+	</form>
+
+	<a href="Hyper4.html">Previous Page</a>
+
+
+</body>
+</html>
